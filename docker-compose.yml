@@ -5,9 +5,9 @@ services:
     ports:
       - "8181:3000"
     environment:
-      -DB_NAME=training
-      -DB_HOST=172.23.8.31
-      -DB_USER=peserta
-      -BD_PASSWORD=password
-      -APP_PORT=3000
+      - DB_NAME=training
+      - DB_HOST=172.23.8.31
+      - DB_USER=peserta
+      - BD_PASSWORD=password
+      - APP_PORT=3000
     restart: always
